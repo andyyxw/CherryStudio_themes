@@ -1,0 +1,26 @@
+/* Markdown 内容样式 */
+/* Light模式样式 */
+body[theme-mode="light"] .markdown h1 { font-size: 2em; color: #FF5252; border: none; padding-bottom: 0; }
+body[theme-mode="light"] .markdown h2 { font-size: 1.75em; color: #FFA040; border: none; padding-bottom: 0; }
+body[theme-mode="light"] .markdown h3 { font-size: 1.5em; color: #FDD800; border: none; padding-bottom: 0; }
+body[theme-mode="light"] .markdown h4 { font-size: 1.25em; color: #4CAF50; border: none; padding-bottom: 0; }
+body[theme-mode="light"] .markdown h5 { font-size: 1.1em; color: #03A9F4; border: none; padding-bottom: 0; }
+body[theme-mode="light"] .markdown h6 { font-size: 1em; color: #673AB7; border: none; padding-bottom: 0; }
+body[theme-mode="light"] .markdown strong { color: #C08080; }
+body[theme-mode="light"] .markdown em { color: #7986CB; font-style: italic; }
+body[theme-mode="light"] .markdown hr { border: none; height: 1px; background: linear-gradient(90deg, transparent, #E5FFFF, transparent); }
+body[theme-mode="light"] .markdown a { color: #42A5F5; }
+body[theme-mode="light"] .markdown a:hover { color: #1976D2; text-decoration: none; }
+
+/* Dark模式样式 */
+body[theme-mode="dark"] .markdown h1 { font-size: 2em; color: #FFADAD; border: none; padding-bottom: 0; }
+body[theme-mode="dark"] .markdown h2 { font-size: 1.75em; color: #FFD6A5; border: none; padding-bottom: 0; }
+body[theme-mode="dark"] .markdown h3 { font-size: 1.5em; color: #FDFFB6; border: none; padding-bottom: 0; }
+body[theme-mode="dark"] .markdown h4 { font-size: 1.25em; color: #CAFFBF; border: none; padding-bottom: 0; }
+body[theme-mode="dark"] .markdown h5 { font-size: 1.1em; color: #9BF6FF; border: none; padding-bottom: 0; }
+body[theme-mode="dark"] .markdown h6 { font-size: 1em; color: #A0C4FF; border: none; padding-bottom: 0; }
+body[theme-mode="dark"] .markdown strong { color: #FFFF99; }
+body[theme-mode="dark"] .markdown em { color: #C7CEEA; font-style: italic; }
+body[theme-mode="dark"] .markdown hr { border: none; height: 1px; background: linear-gradient(90deg, transparent, #E5FFFF, transparent); }
+body[theme-mode="dark"] .markdown a { color: #A2FDB5; }
+body[theme-mode="dark"] .markdown a:hover { color: #81C784; text-decoration: none; }
